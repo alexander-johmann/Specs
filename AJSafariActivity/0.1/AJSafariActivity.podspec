@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.source       = { :git => "https://github.com/alexander-johmann/AJSafariActivity.git", :tag => s.version.to_s }
   s.source_files = 'AJSafariActivity/*.{h,m}'
-  s.resource_bundles = 'AJSafariActivity/AJSafariActivity.bundle'
+  s.resource_bundles = { 'AJSafariActivity/AJSafariActivity.bundle' }
   s.requires_arc = true
 end
