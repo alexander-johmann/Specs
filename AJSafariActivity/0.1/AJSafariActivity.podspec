@@ -10,6 +10,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/alexander-johmann/AJSafariActivity.git", :tag => s.version.to_s }
   s.source_files = 'AJSafariActivity/*.{h,m}'
   s.resource_bundles = 'AJSafariActivity/AJSafariActivity.bundle'
-	s.dependency 'private' '~> 2.0'
   s.requires_arc = true
 end
